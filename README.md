@@ -7,5 +7,5 @@ Sr.no:1
 File name: Basic codes
 1.Information about C programming language and basic format.
 
-**How to run**
+**How to run:**
 Compile with Turbo C++ or GCC.
