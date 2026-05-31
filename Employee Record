@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+printf("Employee Record");
+char name [20], department[20];
+int sal;
+
+printf("Enter name = ");
+scanf("%d",&name);
+
+printf)("Enter Salary = ");
+scanf("%d",&sal);
+
+printf("Enter department = ");
+scanf("%d",&department);
+
+if(sal>=10000)
+printf("High Position Officer");
+else
+printf("Low Position Officer");
+printf("-----------------------------------------------------------\n");
+printf("Name = %s\n", &name);
+printf("Department = %s\n", &department");
+printf("Salary = %d\n", &sal);
+getch();
+}
