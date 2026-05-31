@@ -1,0 +1,36 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+
+printf("****RESULTS****\n");
+char name[20];
+float hin, mar, eng;
+
+printf("Enter your name= ");
+scanf("%d",&name);
+
+printf("Enter your hindi marks = ");
+scanf("%d",&hin);
+
+printf("Enter your marathi marks = ");
+scanf("%d",&mar);
+
+printf("Enter your english marks = ");
+scanf("%d",&eng);
+
+if(eng>=60)
+printf("SCHOLARSHIP");
+else
+printf("NO SCHOLARSHIP");
+
+if
+(eng>=35 && mar>=35 && eng>=35)
+printf("PASS");
+else
+printf("FAIL");
+getch();
+}
+
+
