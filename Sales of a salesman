@@ -1,0 +1,37 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+printf("Quarterly sales of a salesman\n");
+char name[25];
+float jan, feb, mar, aver, tsale, inc;
+
+printf("Enter your name = ");
+scanf('%d",&name);
+
+printf("Enter the sales of month of January  = ");
+scanf("%d",&jan);
+
+printf("Enter the sales of month of February = ");
+scanf("%d",&feb);
+
+printf("Enter the sales of month of March = ");
+scanf("%d",&mar);
+
+tsale = jan + feb + mar;
+printf("Total Sale = %f\n", tsale);
+
+aver = tsale/3;
+printf("Average Sale = %f\n",aver);
+
+inc = aver*0.05;
+if(aver>=5000)
+printf("Incentive = %f\n", inc);
+else
+printf("No Incentive");
+getch();
+}
+
+
+
