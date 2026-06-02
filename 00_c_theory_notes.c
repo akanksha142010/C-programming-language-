@@ -3,17 +3,14 @@
 Developed By: Dennis Ritchie at AT&T Bell Labs, 1972
 Type: Middle-level, Procedural, Structured Language
 Why C: Fast, portable, used in OS, embedded systems, compilers
-File Extension:.CPP (In Turbo C++)
+File Extension: .c for C & .cpp for C++
 
 Basic Structure of C Program:
 #include<stdio.h>
-#include<conio.h>
-
-void main()
+int main()
 {
-    clrscr();
     printf("Hello World");
-    getch();
+    return 0;
 }
 
 Note: In GCC/Linux, use int main() and return 0; No conio.h.
