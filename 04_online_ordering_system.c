@@ -1,8 +1,6 @@
 #include<stdio.h>
-#include<conio.h>
-void main()
+int main()
 {
-clrscr();
 printf("-----------Online Ordering Platform--------\n");
 char name[25], prod[25];
 float cgst, sgst, price, qty, tot, dis, dis_bill, tax_bill;
@@ -57,7 +55,7 @@ else
 {
 printf("No Discount");
 }
-getch();
+  return 0;
 }
 
 
