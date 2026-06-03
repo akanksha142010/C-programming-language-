@@ -1,8 +1,6 @@
 #include<stdio.h>
-#include<conio.h>
-void main()
+int main()
 {
-clrscr();
 printf("SALARY SLIP\n");
 char name[25];
 //bsal =  basic salary, hra = housing rate allowance, trav = travel allowance, gsal = gross salary, pf = provident fund, ns = net salary
@@ -31,7 +29,6 @@ printf("Tax = %f\n", tax);
 
 ns = gsal - pf - tax;
 printf("Net Salary = %f\n", ns);
-getch();
+return 0;
 }
-
 
