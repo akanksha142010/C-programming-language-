@@ -1,10 +1,8 @@
 #include<stdio.h>
-#include<conio.h>
-void main()
+int main()
 {
-  clrscr();
   printf("********RESULTS*********\n");
-  int hin,mar,eng,tot,pr;
+  float hin,mar,eng,tot,pr;
   hin = 75; 
   mar = 72;
   eng = 78;
@@ -12,10 +10,10 @@ void main()
   pr = 100*tot/240;
 
   printf("SUBJECTS\n");
-  printf("Hindi = 65\n");
+  printf("Hindi = 75\n");
   printf("Marathi = 72\n");
   printf("English = 78\n");
   printf("Total = %d\n",tot);
   printf("Percentage = %d\n", pr);
-  getch();
+  return 0;
 }
