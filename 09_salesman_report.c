@@ -1,8 +1,6 @@
 #include<stdio.h>
-#include<conio.h>
-void main()
+int main()
 {
-clrscr();
 printf("Quarterly sales of a salesman\n");
 char name[25];
 float jan, feb, mar, aver, tsale, inc;
@@ -30,7 +28,7 @@ if(aver>=5000)
 printf("Incentive = %f\n", inc);
 else
 printf("No Incentive");
-getch();
+return 0;
 }
 
 
