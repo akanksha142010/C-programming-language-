@@ -9,7 +9,7 @@ printf("Enter the column number = ");
 scanf("%d", &noc);
 for(i=1; i<=nor; i++)
 {
-for(j=1; j<=64(noc-i); j++)
+for(j=65; j<=64(noc-i); j++)
   printf("%c",j);
 printf("\n");
 }
