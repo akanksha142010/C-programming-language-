@@ -11,7 +11,7 @@ for(i=1; i<=nor; i++)
 for(j=1; j<=noc-i; j++)
   printf(" ");
 {
-for(k=1; k<=65+(2*i-1); k++)
+for(k=65; k<=65+(2*i-1); k++)
   printf("%c",k);
 printf("\n");
 }
